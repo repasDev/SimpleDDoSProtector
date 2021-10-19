@@ -2,6 +2,9 @@
 
 Contains a server that can detect DDoS attacks and deny them and a client that provides these atttacks.
 
+There are 2 ways to limit the requests. One is through a limited time frame, while the other let's through requests based on an average req/time threshold.
+You can switch between these 2 in the request_limiter.py
+
 ## Dependencies
 
 Requests - an elegant and simple HTTP library for Python
