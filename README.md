@@ -8,4 +8,13 @@ Requests - an elegant and simple HTTP library for Python
 
 ## Installation
 
-After you clone the repository first start the server. While it's running run the client and enter the parameters for the DDoS attack. To stop the attack simply use the Ctrl+C command to gracefully exit.
+Start the server first with:
+```sh
+python server.py
+```
+Then run the client:
+```sh
+python client.py
+```
+
+Input the parameters for the client to begin the DDoS attack. To stop the attack simply use the Ctrl+C command to gracefully exit.
